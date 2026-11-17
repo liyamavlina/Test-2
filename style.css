@@ -1,0 +1,220 @@
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        color: #2d2d2d;
+        background-color: #fdfaf7; 
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .site-header {
+        padding: 20px 50px;
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo p {
+        font-weight: bold;
+        font-size: 18px;
+        color: #4a2c5e; 
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 50px;
+        gap: 80px;
+        margin-left: 5%;
+    }
+
+    .text-content {
+        max-width: 550px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        color: #7e5ba4; 
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .text-content h1 {
+        font-size: 56px;
+        line-height: 1.1;
+        margin: 0 0 20px 0;
+        color: #2d2d2d;
+        font-weight: 800;
+    }
+
+    .description {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    
+    .cta-buttons {
+        display: flex;
+        gap: 15px;
+    }
+
+    .btn-primary, .btn-secondary {
+        padding: 14px 28px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+    }
+
+    .btn-primary {
+        background-color: #6b4eff;
+        color: #fff;
+        border: 2px solid #6b4eff;
+    }
+
+    .btn-secondary {
+        background-color: transparent;
+        color: #6b4eff;
+        border: 2px solid #6b4eff;
+    }
+
+    .image-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-content img {
+        max-width: 450px;
+        border-radius: 50%; 
+        border: 10px solid #f0edff;
+        object-fit: cover;
+        aspect-ratio: 1 / 1;
+    }
+
+    .contact-header {
+        text-align: center;
+        max-width: 700px;
+        margin: 60px auto 40px;
+        padding: 0 20px;
+    }
+
+    .contact-header h1 {
+        font-size: 42px;
+        margin-bottom: 15px;
+        color: #2d2d2d;
+    }
+
+    .contact-header p {
+        font-size: 16px;
+        color: #666;
+    }
+
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto 80px;
+        background: #fff;
+        padding: 40px;
+        border-radius: 12px;
+    }
+
+    .contact-form h2 {
+        margin-top: 0;
+        font-size: 28px;
+        color: #2d2d2d;
+    }
+
+    .contact-form > p {
+        color: #666;
+        margin-bottom: 30px;
+    }
+
+    .contact-form div {
+        margin-bottom: 20px;
+    }
+
+    .contact-form p {
+        margin: 0 0 8px 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #4a2c5e;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: #fafafa;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        outline: none;
+        border-color: #6b4eff;
+        background-color: #fff;
+    }
+
+
+    input[type="submit"] {
+        background-color: #6b4eff;
+        color: white;
+        border: none;
+        padding: 14px 30px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        background-color: #5538d9;
+    }
+
+    .site-footer {
+        background-color: #2d2d2d;
+        color: #ccc;
+        padding: 40px 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .site-footer div {
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .site-footer strong {
+        color: #fff;
+        font-size: 18px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .site-footer p {
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+   
