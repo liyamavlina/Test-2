@@ -9,9 +9,19 @@
     }
 
     .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 20px 50px;
         background-color: #fff;
         border-bottom: 1px solid #eee;
+    }
+
+    .site-header a {
+      color: grey;  
+    }
+    .violet {
+     color: #7e5ba4;   
     }
 
     .logo {
@@ -217,4 +227,25 @@
         font-size: 14px;
     }
 
-   
+/* ==================================== */
+
+.cat-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.cats-page-main {
+    flex-grow: 1; 
+    padding: 40px 0;
+}
+
+.card .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #6b4eff;
+    border: 2px solid #6b4eff;
+    color: white;
+    text-align: center;
+}
