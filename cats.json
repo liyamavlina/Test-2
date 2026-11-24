@@ -1,0 +1,41 @@
+[
+    {
+     "id": 1, 
+     "name": "Barsik",
+     "description": "Affectionate and social. Loves sleeping on the keyboard and greeting guests at the door." ,
+     "img": "images/Barsik.jpg"
+    },
+
+    {
+     "id": 2, 
+     "name": "Ryzhik",
+     "description": "A true sunny cat. Purrs the loudest and is always ready to chase a laser." ,
+     "img": "images/Ryzhik.jpg"
+    }, 
+
+    {
+     "id": 3, 
+     "name": "Murka",
+     "description": "Independent beauty. Loves watching from the windowsill and playing with a ribbon." ,
+     "img": "images/Murka.jpg"
+    }, 
+     {
+     "id": 4, 
+     "name": "Snezhok",
+     "description": "White and fluffy like a cloud. Shy, but loves being petted more than anything." ,
+     "img": "images/Snezhok.jpg"
+    }, 
+    {
+     "id": 5, 
+     "name": "Ten",
+     "description": "A mysterious black cat. Appears silently and disappears the moment you look away." ,
+     "img": "images/Ten.jpg"
+    }, 
+     {
+     "id": 6, 
+     "name": "Laska",
+     "description": "The most gentle cat in the house. Sleeps only on pillows and loves attention." ,
+     "img": "images/Ten.jpg"
+    }
+
+]
