@@ -15,6 +15,7 @@
         padding: 20px 50px;
         background-color: #fff;
         border-bottom: 1px solid #eee;
+        flex-wrap: wrap;
     }
 
     .site-header a {
@@ -39,6 +40,7 @@
         font-weight: bold;
         font-size: 18px;
         color: #4a2c5e; 
+        margin: 0;
     }
 
     .main-content {
@@ -108,12 +110,24 @@
     }
 
     .image-content img {
-        max-width: 450px;
         border-radius: 50%; 
         border: 10px solid #f0edff;
         object-fit: cover;
         aspect-ratio: 1 / 1;
+    }    
+    
+    @media (max-width: 450px) {
+        .cover {
+            flex-wrap: wrap;
+        }
     }
+
+    @media (min-width: 900px) {
+        .image-content img {
+            max-height: 80%;
+        }
+    }
+
 
     .contact-header {
         text-align: center;

@@ -1,5 +1,5 @@
 // Загружаем данные о товарах из файла shop.json.
-fetch("./data/shop.json")
+fetch("cats.json")
   // Преобразуем полученный ответ сервера из JSON в JavaScript-массив.
   .then(response => response.json())
   // После загрузки данных создаём HTML-карточки товаров.

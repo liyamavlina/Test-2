@@ -23,7 +23,7 @@
      "id": 4, 
      "name": "Snezhok",
      "description": "White and fluffy like a cloud. Shy, but loves being petted more than anything." ,
-     "img": "images/Snezhok.jpg"
+     "img": "images/Snezhok.png"
     }, 
     {
      "id": 5, 
@@ -35,7 +35,7 @@
      "id": 6, 
      "name": "Laska",
      "description": "The most gentle cat in the house. Sleeps only on pillows and loves attention." ,
-     "img": "images/Ten.jpg"
+     "img": "images/Laska.jpg"
     }
 
 ]
